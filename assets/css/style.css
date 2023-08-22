@@ -1,0 +1,6 @@
+.bg-img {
+    background-image: url('http://localhost/pms/assets/img/shutterstock-1199480788.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
