@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <small class="text-muted">Copyright &copy; 2023 | Project Management System</small>
+          <small class="text-muted">Copyright &copy; 2023 | Project  System</small>
         </div>
       </div>
     </div>
