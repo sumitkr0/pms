@@ -20,11 +20,13 @@ $projects = $conn->query($Sql);
             <div class="pt-3">
               <img src="assets/img/project.png" width="120" alt="...">
             </div>
-<!-----------------dashboard contents----------------->            
+            <!-----------------dashboard contents----------------->
             <div class="card-body">
               <h5 class="card-title">Projects</h5>
               <p class="card-text">List of Active projects.</p>
-              <a href="projects/index.php" class="btn btn-primary">View Projects <span class="badge bg-light text-dark">5</span></a>
+              <a href="projects/index.php" class="btn btn-primary">View Projects
+                <!------------- <span class="badge bg-light text-dark">5</span>------------------>
+              </a>
             </div>
           </div>
         </div>
@@ -36,7 +38,9 @@ $projects = $conn->query($Sql);
             <div class="card-body">
               <h5 class="card-title">Users</h5>
               <p class="card-text">List of Users.</p>
-              <a href="users/index.php" class="btn btn-primary">View Users <span class="badge bg-light text-dark">9</a>
+              <a href="users/index.php" class="btn btn-primary">View Users
+                <!------------- <span class="badge bg-light text-dark">5</span>------------------>
+              </a>
             </div>
           </div>
         </div>
@@ -48,7 +52,9 @@ $projects = $conn->query($Sql);
             <div class="card-body">
               <h5 class="card-title">Tasks</h5>
               <p class="card-text">List of all Tasks.</p>
-              <a href="#" class="btn btn-primary">View Tasks <span class="badge bg-light text-dark">3</a>
+              <a href="#" class="btn btn-primary">View Tasks
+                <!------------- <span class="badge bg-light text-dark">5</span>------------------>
+              </a>
             </div>
           </div>
         </div>
@@ -60,11 +66,13 @@ $projects = $conn->query($Sql);
             <div class="card-body">
               <h5 class="card-title">Clients</h5>
               <p class="card-text">List of active Clients.</p>
-              <a href="#" class="btn btn-primary">View Clients <span class="badge bg-light text-dark">20</a>
+              <a href="#" class="btn btn-primary">View Clients
+                <!------------- <span class="badge bg-light text-dark">5</span>------------------>
+              </a>
             </div>
           </div>
         </div>
-<!--------------list of ongoing projects---------------------------->        
+        <!--------------list of ongoing projects---------------------------->
         <div class="my-3 col-12 ">
           <h3 class=" p-3 mb-0" style="background-color:#E4D6A7">On-going Projects</h3>
           <table class="table table-striped">

@@ -40,7 +40,7 @@ $url = "http://localhost/pms/"; ?>
           <div>
             <ul class="navbar-nav mb-2  mb-lg-0">
               <li>
-                <h5 class="me-3 mt-1"><?php echo "Hello " . $_SESSION['login_user'] ?></h5>
+                <h5 class="me-3 mt-1"><?php if(isset($_SESSION['login_user'])) echo "Hello ".$_SESSION['login_user']; ?></h5>
               </li>
               <li class="nav-item ">
                 <?php if (!isset($_SESSION['login_user'])) { ?>

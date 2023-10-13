@@ -10,7 +10,7 @@ if (isset($_POST["fusername"]) && isset($_POST["fuseremail"]) && isset($_POST["f
     $fuserpswrd = $_POST["fuserpswrd"];
     $gender = $_POST["gender"];
     $usertype = $_POST["usertype"];
-    $HASHED = password_hash($password, PASSWORD_DEFAULT);
+    $HASHED = password_hash($fuserpswrd, PASSWORD_DEFAULT);
     $myqry = "INSERT INTO users (fname,email,password,gender,usertype_id) values ('$fusername','$fuseremail','$HASHED','$gender','$usertype')";
     // echo $myqry;
     $add = $conn->query($myqry);
